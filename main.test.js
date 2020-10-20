@@ -18,7 +18,7 @@ describe('Apuesta', function(){
 	describe('Goles', function(){
 	it('should show goles correctly', function(){
 		var apuesta2 = new apuesta.Apuesta('Granada','Sevilla','1-0');
-		assert.equal(apuesta2.goles_string(), "1-0");
+		assert.equal(apuesta2.goles_string(), "1-0 ");
 	});
 	});
 });
